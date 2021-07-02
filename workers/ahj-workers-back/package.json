@@ -1,0 +1,32 @@
+{
+  "name": "ahj-servise-worker-backend",
+  "version": "1.0.0",
+  "description": "Service Worker BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentin-panov/ahj-workers-back.git"
+  },
+  "author": "Valentin Panov",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "faker": "^5.5.3",
+    "koa-router": "^10.0.0",
+    "koa-slow": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

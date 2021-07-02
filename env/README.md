@@ -1,3 +1,9 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/yoemxn269xfg7wrs?svg=true)](https://ci.appveyor.com/project/vapanov/ahj-env)
+
+Боевая версия: https://vapanov.github.io/ahj-env/
+
+MASTER BRANCH [![Build status](https://ci.appveyor.com/api/projects/status/yoemxn269xfg7wrs/branch/master?svg=true)](https://ci.appveyor.com/project/vapanov/ahj-env/branch/master)
+
 **Важно**: все задачи к данной лекции можно выполнить в виде одного репозитория (т.е. допускается не делать отдельные репозитории на каждую задачу).
 
 ---
@@ -53,8 +59,9 @@
 #### Описание
 
 Следуя инструкциям из лекции, разделите конфигурацию на три части:
-* общая
-* prod (в prod нужно указать только `mode: 'production'` и настройки оптимизации для плагинов Terser и OptimizeCSSAssets)
-* dev
+
+- общая
+- prod (в prod нужно указать только `mode: 'production'` и настройки оптимизации для плагинов Terser и OptimizeCSSAssets)
+- dev
 
 **В качестве результата пришлите проверяющему ссылку на ваш GitHub-проект.**
